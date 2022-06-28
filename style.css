@@ -1,0 +1,60 @@
+body {
+    background-color: #91d9eb;
+  }
+  
+  
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    font-size: 16px;
+    color: #181510;
+  }
+  
+  section {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #f6e9c9;
+  }
+  
+  .first-element {
+    background-color: lightblue;
+  }
+  
+  .second-element {
+    background-color: goldenrod;
+  }
+  
+
+  .display-block {
+    display: block;
+  }
+ 
+  .display-inline {
+    display: inline;
+  }
+  
+  .display-none {
+    display: none;
+  }
+
+
+
+#answerBox {
+    display: flex;
+    align-items: center;
+};
+
+#welcomeBox {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#quizQues {
+    display:flex;
+    align-items: center;
+    align-content: center;
+}

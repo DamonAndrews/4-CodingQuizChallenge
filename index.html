@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>World Famous Web Dev Quiz</title>
+</head>
+
+<body>
+
+    <header></header>
+
+        <section>
+            <div id = "welcomeBox">
+                <h2>So you think you can CODE?!</h2>
+                <p>Welcome to the timed Web Developer Quiz. <strong> Please note that each incorrect answer will result in <i>10 SECONDS LOST from the game clock!</i></strong> You have a total of 100 seconds to complete the quiz. Click the "Let's Play" button below to begin, and good luck!</p>
+                <p><button id = "startButton">LET'S BEGIN!</button></p>
+            </div>
+        </section>
+
+        
+        <section id = "scoreAndTimer" style ="display: none">
+                <div id = "userHighScoreInfo">PREVIOUS HIGH SCORE:</div>
+                <div id = "userTimer"></div>
+        </section>
+
+
+        <section id = "bigQuizBox" style = "display: none">
+
+            <div id = "answerBox">
+
+                <br></div>
+
+                <div id = "quizQues"></div>
+
+                <p><button id="optionA">A</button>
+                <button id="optionB">B</button>
+                <button id="optionC">C</button>
+                <button id="optionD">D</button></p>
+
+            </div>
+        </section>
+
+        <section id = "resultsBox" style = "display: none">
+            
+                <p>Game Over, thanks for playing!</p>
+                <p id=""></p>
+
+                <p>
+                <form>
+                    <label for="firstName">First Name:</label><br>
+                    <input type="text" id="firstName" name="firstName"><br>
+                    <input type="submit" value = 'Submit'>
+                </form>
+                </p>
+
+                <div id = "score"></div>
+            
+
+        </section>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
